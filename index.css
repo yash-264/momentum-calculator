@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container input{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+}
+.container button{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+}
+#submit{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.head{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: aqua;
+    border-bottom: solid black 5px;
+}
